@@ -31,7 +31,8 @@
 #define vh_GPA0CON		(*(volatile unsigned *)0xe0300000)
 #define vh_GPA0PUD		(*(volatile unsigned *)0xe0300008)
 
-
+#define vh_GPJ2CON		(*(volatile unsigned *)0xe0300240)
+#define vh_GPJ2DAT		(*(volatile unsigned *)0xe0300244)
 
 /*****************************************************************
    Timer address
